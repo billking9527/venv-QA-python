@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q&A</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .qa-section {
+            margin: 20px;
+        }
+        .question {
+            font-weight: bold;
+        }
+        .answer {
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 10px;
+        }
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#question1">问题1</a>
+        <a href="#question2">问题2</a>
+        <a href="#question3">问题3</a>
+        <a href="#question4">问题4</a>
+    </nav>
+    <main class="qa-section">
+        <section id="qa">
+            <h2>Q&A</h2>
+            <div class="qa-item" id="question1">
+                <p class="question">Q: How to create a virtual environment (venv) in Python?</p>
+                <p class="answer">A: To create a virtual environment in Python, use the command: <code>python -m venv venv</code>. This will create a virtual environment named <code>venv</code> in your current directory.</p>
+                <p class="question">问：如何在Python中创建虚拟环境（venv）？</p>
+                <p class="answer">答：在Python中创建虚拟环境，请使用命令：<code>python -m venv venv</code>。这将在当前目录中创建一个名为<code>venv</code>的虚拟环境。</p>
+            </div>
+            <div class="qa-item" id="question2">
+                <p class="question">Q: How to activate the virtual environment?</p>
+                <p class="answer">A: To activate the virtual environment, use the following command:
+                    <ul>
+                        <li>On Windows: <code>.\venv\Scripts\activate</code></li>
+                        <li>On macOS/Linux: <code>source venv/bin/activate</code></li>
+                    </ul>
+                </p>
+                <p class="question">问：如何激活虚拟环境？</p>
+                <p class="answer">答：要激活虚拟环境，请使用以下命令：
+                    <ul>
+                        <li>在Windows上：<code>.\venv\Scripts\activate</code></li>
+                        <li>在macOS/Linux上：<code>source venv/bin/activate</code></li>
+                    </ul>
+                </p>
+            </div>
+            <div class="qa-item" id="question3">
+                <p class="question">Q: How to deactivate the virtual environment?</p>
+                <p class="answer">A: To deactivate the virtual environment, use the command: <code>deactivate</code>. This will return you to the global Python environment.</p>
+                <p class="question">问：如何停用虚拟环境？</p>
+                <p class="answer">答：要停用虚拟环境，请使用命令：<code>deactivate</code>。这将使您返回到全局Python环境。</p>
+            </div>
+            <div class="qa-item" id="question4">
+                <p class="question">Q: Can I use <code>python -m venv venv001</code> to create a venv called venv001?</p>
+                <p class="answer">A: Yes, you can use the command <code>python -m venv venv001</code> to create a virtual environment named <code>venv001</code>.</p>
+                <p class="question">问：我可以使用<code>python -m venv venv001</code>来创建一个名为venv001的虚拟环境吗？</p>
+                <p class="answer">答：是的，您可以使用命令<code>python -m venv venv001</code>来创建一个名为<code>venv001</code>的虚拟环境。</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p><strong>日期:</strong> 2025年1月12日</p>
+        <p><strong>主题:</strong> Python虚拟环境的创建与管理</p>
+        <p><strong>总结:</strong> 本文介绍了如何在Python中创建、激活和停用虚拟环境，并提供了相关命令的中英文对照。</p>
+        <p><strong>提问人:</strong> 用户</p>
+        <p><strong>回答人:</strong> GitHub Copilot</p>
+        <p><strong>主要思路:</strong> 通过命令行创建和管理Python虚拟环境，以便在隔离的环境中运行Python程序。</p>
+        <p><strong>适用范围:</strong> 适用于需要在不同项目中使用不同Python包版本的开发者。</p>
+    </footer>
+</body>
+</html>
